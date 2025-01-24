@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Youngster Music</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        header {
+            background-color: #1e1e1e;
+            color: white;
+            padding: 80px 20px 20px;
+            text-align: center;
+        }
+
+        .content {
+            padding: 50px 20px;
+            text-align: center;
+            flex-grow: 1; /* This allows the main content to expand */
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .contact-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 280px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .contact-card h3 {
+            margin: 0 0 10px;
+            color: #1e1e1e;
+        }
+
+        .contact-card p {
+            font-size: 16px;
+            color: #555;
+            margin: 5px 0;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .social-icons a {
+            color: #333;
+            font-size: 30px;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            background-color: #333;
+            color: white;
+        }
+
+        footer {
+            background-color: #1e1e1e;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            margin-top: auto; /* Ensures footer stays at the bottom */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="music.html">Music</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <h1>About Me</h1>
+        <p>Get to know me and stay in touch!</p>
+    </header>
+
+    <!-- Content Section -->
+    <div class="content">
+        <h2>Contact Information</h2>
+        <div class="contact-info">
+            <!-- Email Contact Card -->
+            <div class="contact-card">
+                <h3>Email</h3>
+                <p>selfxmade000@gmail.com</p>
+            </div>
+
+            <!-- Phone Contact Card -->
+            <div class="contact-card">
+                <h3>Phone</h3>
+                <p>+977 9828597347</p>
+            </div>
+
+            <!-- Social Media Links -->
+            <div class="contact-card">
+                <h3>Follow Me</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/pralay.xr/" target="_blank" title="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com/yourprofile" target="_blank" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/xr_pra1ay_p6?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@Youngster_Music" target="_blank" title="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        &copy; 2025 Youngster Music | All Rights Reserved
+    </footer>
+</body>
+</html>

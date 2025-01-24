@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music | Youngster Music</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #1e1e1e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 80px 20px 20px; /* Added padding to avoid overlap with the fixed navbar */
+            text-align: center;
+            flex-grow: 1;
+        }
+
+        .track {
+            margin: 20px auto;
+            background: #fff;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            max-width: 600px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #1e1e1e;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="music.html">Music</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <h1>My Music</h1>
+        <p>Listen to my latest tracks here!</p>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <div class="track">
+            <h3>Track 1: Yatri</h3>
+            <audio controls>
+                <source src="Yatri.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="track">
+            <h3>Track 2: Satyata</h3>
+            <audio controls>
+                <source src="Satyata.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="track">
+            <h3>Track 3: In My Soul</h3>
+            <audio controls>
+                <source src="In My Soul.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        &copy; 2025 Youngster Music | All Rights Reserved
+    </footer>
+</body>
+</html>
